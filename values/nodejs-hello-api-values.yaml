@@ -1,17 +1,13 @@
 app:
-  name: app1
+  name: nodejs-hello-api
 
 replicaCount: 2
 
 image:
-  repository: myregistry/app1
+  repository: alx52/nodejs-hello-api
   tag: latest
   pullPolicy: IfNotPresent
 
 service:
   type: ClusterIP
   port: 80
-
-ingress:
-  enabled: true
-  host: app1.dev.local
