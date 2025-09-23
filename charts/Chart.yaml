@@ -1,6 +1,6 @@
 apiVersion: v2
-name: api-rest
-description: API REST minimal chart
+name: app
+description: Helm chart genérico para múltiplos aplicativos
 type: application
 version: 0.1.0
 appVersion: "1.0.0"
