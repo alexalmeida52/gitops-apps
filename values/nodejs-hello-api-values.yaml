@@ -1,0 +1,17 @@
+app:
+  name: app1
+
+replicaCount: 2
+
+image:
+  repository: myregistry/app1
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: true
+  host: app1.dev.local
