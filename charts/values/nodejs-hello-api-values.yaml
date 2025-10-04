@@ -14,3 +14,5 @@ configMap:
   AWS_REGION: us-east-1
   AWS_SQS_QUEUE_NAME: /000000000000/minha-fila
   AWS_ENDPOINT_URL: "http://localstack.infra.svc.cluster.local:4566"
+  AWS_ACCESS_KEY_ID: your_access_key_id
+  AWS_SECRET_ACCESS_KEY: your_secret_access_key
