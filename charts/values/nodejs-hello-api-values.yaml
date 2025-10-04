@@ -13,4 +13,4 @@ configMap:
   LOG_LEVEL: "info"
   AWS_REGION: us-east-1
   AWS_SQS_QUEUE_NAME: /000000000000/minha-fila
-  AWS_ENDPOINT_URL: "http://localhost:4566"
+  AWS_ENDPOINT_URL: "http://localstack.infra.svc.cluster.local:4566"
